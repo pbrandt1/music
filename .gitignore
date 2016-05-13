@@ -2,3 +2,6 @@
 *.ogg
 .DS_Store
 *.pdf
+.*
+*.mid
+*.asd
