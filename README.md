@@ -1,15 +1,16 @@
 # sheet music
 keeping some sheet music under version control
 
-# set up
-edit `~/.gitconfig`
-add
+# how does this work?
+
+i added a textconv rule for zip files to this project's .gitconfig
+
 ```
 [diff "zip"]
 	textconv = unzip -c -a
 ```
 
-You'll also notice that the .gitattributes file for this repo has a rule for musescore's mscz format
+and i specified that .mscz files should use the zip rule in .gitattributes
 
 
 
